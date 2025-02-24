@@ -1,5 +1,5 @@
 # Creando un portal de pan page en React 
-..
+--
 inicio
 --
 productos
@@ -13,7 +13,6 @@ contactanos
 
 --
 las redes estraran en la pagina 
-
 
 --
 
