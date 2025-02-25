@@ -3,7 +3,7 @@ export default function ProductCard () {
 return (
 <div className="product-card">
     <div className="product-image">
-     <img src="" alt="Nombre de producto" ></img>
+     <img src={'src/assets/destornilla.jpg'} width='100' height='100' ></img>
     </div>
 
     <div className="product-information">
