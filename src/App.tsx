@@ -3,7 +3,7 @@ import './App.css'
 import './index.css';
 import ProductCard from './component/ProductCard';
 import DataProducts from './component/DataProducts';
-
+import Login  from './pages/login';
 
 
 function App() { 
@@ -18,7 +18,7 @@ function App() {
       <ProductCard></ProductCard>
        <button></button>
       <DataProducts></DataProducts>
-   
+     <Login></Login>
     </section>
    
   </div>
