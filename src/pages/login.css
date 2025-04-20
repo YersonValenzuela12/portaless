@@ -8,13 +8,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("src/assets/background.jpg");
+    background-image: url("src/assets/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: white;
 }
-.outer-container{
+.login-form{
     padding: 30px 50px;
     width: 500px;
     background: rgba(255,255,255,0.1);

@@ -4,9 +4,10 @@ import './login.css';
 
 const Login = () => {
     return (
-        <div className="login-page">
-        <h1>Login Page</h1>
+        <div className="main">
+       
         <form className="login-form">
+              <h1>Login </h1>
             <div className="input-container">
             <label htmlFor="username">Username:</label>
             <input type="text" placeholder="Username@email.com" required />
@@ -31,7 +32,7 @@ const Login = () => {
               <img src="src/assets/Google.png" alt="" />
             </div>
             <div className="social-icon">
-              <img src="src/assets/twitter.png" alt="" />
+              <img src="src/assets/git.png" alt="" />
             </div>
             <div className="social-icon">
               <img src="src/assets/facebook.png" alt="" />

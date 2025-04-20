@@ -32,25 +32,23 @@ export const DataProducts  = () => {
    
         return (
             <div>
-            <h1>Data Products</h1>
+            <h1>Servicios </h1>
             
             <p> id:{data[0].id}</p>
-            <img src={'src/assets/destornilla.jpg'} width='100' height='100' ></img>
+            <img src={'src/assets/destornilla.jpg'} width='300' height='300' ></img>
             <p> nombre:{data[0].nameProduct}</p>
-           <p>  precio:{data[0].price}</p>
-           <p>cantidad:{data[0].quantity}</p>
+   
 
+        
+            <img src={'src/assets/Bocina.jpg'} width='300' height='300' ></img>
+            <p> nombre:{data[1].nameProduct}</p>
 
-           <h2>  Data Products</h2>
-
+           
             <p>id :{JSON.stringify(data)}</p>
        
-            <img src={'src/assets/Manual.jpg'} width='100' height='100' ></img>
-            <p>nombre :{newdata.nameProduct}</p> 
-
-            <p>precio :{newdata.price}</p>
-            <p>cantidad :{newdata.quantity}</p> 
-           
+       <img src={'src/assets/Manual.jpg'} width='300' height='300' ></img>
+       <p>nombre :{newdata.nameProduct}</p> 
+      
             </div>
         );
         
