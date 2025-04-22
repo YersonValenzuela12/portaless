@@ -1,10 +1,10 @@
 import './App.css'
 import './index.css';
-import header from './component/header';
+import Log from './component/log/index.jsx';
 import ProductCard from './component/ProductCard';
 import DataProducts from './component/DataProducts';
 import Login  from './pages/login';
-
+import Footer from './component/footer/footer.jsx';
 
 function App() { 
  
@@ -12,17 +12,21 @@ function App() {
   <div>
    
   
-   
+   <section className='grid grid-cols-1 gap-1 md:grid-cols-1 lg:grid-col-1 justify-item-center'>
+    <Log></Log> 
+    </section>
+
     <h1 className="  center text-3xl font-bold underline" >Un portal de ess hecho en react </h1>
-    <header></header> 
+
+    
 
 
     <section className='grid grid-cols-6 gap-6 md:grid-cols-6 lg:grid-col-6 justify-item-center'>
       <ProductCard></ProductCard>
-
+      <ProductCard></ProductCard>
     </section>
 
-    <section className='grid grid-cols-4 gap-4 md:grid-cols-2 lg:grid-col-4 justify-item-center'> 
+    <section className='grid justify-item-center'> 
     <DataProducts></DataProducts>
 
     </section>
@@ -34,7 +38,9 @@ function App() {
      <Login></Login>
     </section>
     
-
+    <section className='grid grid-cols-1'>
+      <Footer></Footer>
+    </section>
 
 
 
