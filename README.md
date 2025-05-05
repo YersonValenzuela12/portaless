@@ -1,13 +1,23 @@
-# Creando un portal de pan page en React 
+## Creando un portal de pan page en React 
 --
 
-inicio
+**Inicio**
+
 --
-productos
+
+**Nosotros**
+
 --
-quienes somos 
+
+**Nuestros servicios**
+
 --
-contactanos
+
+**Trabaja con nosotros**
+
+--
+
+**Contactanos**
 
 --
 
@@ -15,7 +25,16 @@ contactanos
 
 --
 
+
 las redes estraran en la pagina 
+
+## Facebook
+
+https://www.facebook.com/people/Selecom-Unit-Engineering-Electronics-Security-SAC
+
+## Linkending
+
+https://www.linkedin.com/company/engineering-electronics-security-s-a-c
 
 --
 

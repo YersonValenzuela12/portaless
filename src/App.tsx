@@ -5,19 +5,20 @@ import ProductCard from './component/ProductCard';
 import DataProducts from './component/DataProducts';
 import Login  from './pages/login';
 import Footer from './component/footer/footer.jsx';
-
+import Navbar from './component/navbar/index.jsx';
 function App() { 
  
   return (
   <div>
-   
-  
+
    <section className='grid grid-cols-1 gap-1 md:grid-cols-1 lg:grid-col-1 justify-item-center'>
     <Log></Log> 
     </section>
 
-    <h1 className="  center text-3xl font-bold underline" >Un portal de ess hecho en react </h1>
-
+  
+<section className='grid grid-cols-1 gap-1 md:grid-cols-1 lg:grid-col-1 justify-item-center'>
+<Navbar></Navbar>
+</section>
     
 
 

@@ -39,15 +39,15 @@ export const Log = ()=> {
               <div className="nav_logo">
                   <p>
               
-                  <img src={'src/assets/background.jpg'} width='100' height='100'></img>
+                  <img src={'src/assets/background.jpg'} width='150' height='100'></img>
                     
                   </p>
               </div>
               <div className="s_nav-below-link">
-                  <a href="/home"><div><p>Home</p></div></a>
-                  <a href="/about"><div><p>About</p></div></a>
-                  <a href="/service"><div><p>Services</p></div></a>
-                  <a href="/contact"><div><p>Contact</p></div></a>
+                  <a href="/home" ><div><p>Home</p></div></a>
+                  <a href="/about" ><div><p>About</p></div></a>
+                  <a href="/service" ><div><p>Services</p></div></a>
+                  <a href="/contact" ><div><p>Contact</p></div></a>
               </div>
       
           </div>

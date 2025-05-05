@@ -1,0 +1,8 @@
+html,body{
+    background-color:black
+    
+}
+.counter-container{
+    display:flex;
+    flex-direction: column ;
+}

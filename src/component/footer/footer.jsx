@@ -43,9 +43,10 @@ const Footer = () => {
             <a href="/about">
                 <p>About</p>
             </a>
-            <a href="/whatwedo">
-                <p>What we Do</p>
+            <a href="/services">
+                <p>Services</p>
             </a>
+            
             <a href="/contact">
                 <p>Contact</p>
             </a>
@@ -63,7 +64,7 @@ const Footer = () => {
         </div>
     <hr/>
         <div className="s_footer-below">
-            <div className="footer_copyright">
+            <div className="footer_copyrigth">
                 <p>
                     @{new Date().getFullYear()} Yerson Valenzuela. All rights reserved.Selecom in. All rights reserved.
                 </p>
