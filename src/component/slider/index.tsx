@@ -13,7 +13,7 @@ const datos=[
     title:'en la escalera',
   }
 ]
-export default function Navbar() {
+export default function Slaider() {
   let settings ={
     dots: true,
     infinite: true,

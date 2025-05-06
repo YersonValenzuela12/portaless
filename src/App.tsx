@@ -1,11 +1,11 @@
 import './App.css'
 import './index.css';
-import Log from './component/log/index.jsx';
+import Log from './component/log/index.tsx';
 import ProductCard from './component/ProductCard';
-import DataProducts from './component/DataProducts';
-import Login  from './pages/login';
-import Footer from './component/footer/footer.jsx';
-import Navbar from './component/navbar/index.jsx';
+import DataProducts from './component/DataProducts/index.tsx';
+import Login  from './pages/login.tsx';
+import Footer from './component/footer/footer.tsx';
+import Slaider from './component/slider/index.tsx';
 function App() { 
  
   return (
@@ -17,7 +17,7 @@ function App() {
 
   
 <section className='grid grid-cols-1 gap-1 md:grid-cols-1 lg:grid-col-1 justify-item-center'>
-<Navbar></Navbar>
+<Slaider></Slaider>
 </section>
     
 
