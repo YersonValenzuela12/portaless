@@ -1,34 +1,6 @@
-
-    import React, { useState } from 'react'
     import './indexlog.css';
 
-/*
-    const menuItems = [
-        {
-          icons: <IoHomeOutline size={30} />,
-          label: 'Home'
-        },
-        {
-          icons: <FaProductHunt size={30} />,
-          label: 'Products'
-        },
-        {
-          icons: <MdOutlineDashboard size={30} />,
-          label: 'Dashboard'
-        },
-        {
-          icons: <CiSettings size={30} />,
-          label: 'Setting'
-        },
-        {
-          icons: <IoLogoBuffer size={30} />,
-          label: 'Log'
-        },
-        {
-          icons: <TbReportSearch size={30} />,
-          label: 'Report'
-        },
-      ]*/
+
 export const Log = ()=> {  
     
  
@@ -47,7 +19,7 @@ export const Log = ()=> {
                   <a href="/home" ><div><p>Home</p></div></a>
                   <a href="/about" ><div><p>About</p></div></a>
                   <a href="/service" ><div><p>Services</p></div></a>
-                  <a href="/contact" ><div><p>Contact</p></div></a>
+                  <a href="/contactame" ><div><p>Contact</p></div></a>
               </div>
       
           </div>
